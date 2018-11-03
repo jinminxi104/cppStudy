@@ -35,5 +35,7 @@ int main(void)
 	p = &b;
 	p->foo();
 	p->fun();
+    b.foo();
+    b.fun();
 	return 0;
 }

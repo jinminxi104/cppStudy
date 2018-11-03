@@ -2,7 +2,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-const char * filename = "py2.dat";
+const char * filename = "py.dat";
 int main () {
     char* buffer;
     long size;
@@ -16,7 +16,7 @@ int main () {
     long* num;
     num = (long*)buffer;
     // cout << *num << endl; // print number
-    // cout << buffer[0] << endl; // print string
+     cout << buffer[0] << endl; // print string
     cout << "the complete file is in a buffer" << endl;
     delete[] buffer;
     return 0;
